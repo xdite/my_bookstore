@@ -1058,7 +1058,7 @@ p.note {
   border-bottom: 1px solid #ccc;
 }
 /* line 770, ../../app/stylesheets/main.scss */
-#nav-secondary li.active a:link, #nav-secondary li.active a:visited, #nav-secondary li.active a:hover, #nav-secondary li.active a:active {
+#nav-secondary li.current a:link, #nav-secondary li.current a:visited, #nav-secondary li.current a:hover, #nav-secondary li.current a:active {
   color: #c00;
 }
 /* line 774, ../../app/stylesheets/main.scss */
@@ -1067,12 +1067,12 @@ p.note {
   padding: 0;
 }
 /* line 777, ../../app/stylesheets/main.scss */
-#nav-secondary li.active li {
+#nav-secondary li.current li {
   border: none;
   margin: 0;
 }
 /* line 778, ../../app/stylesheets/main.scss */
-#nav-secondary li.active li a {
+#nav-secondary li.current li a {
   line-height: 1.5;
   background: white url("images/sprites.gif") no-repeat 0 -798px;
   padding: 0 0 0 12px;
@@ -1083,7 +1083,7 @@ p.note {
   display: block;
 }
 /* line 787, ../../app/stylesheets/main.scss */
-#nav-secondary li.active li a:link, #nav-secondary li.active li a:visited {
+#nav-secondary li.current li a:link, #nav-secondary li.current li a:visited {
   line-height: 1.5;
   background: white url("images/sprites.gif") no-repeat 0 -798px;
   padding: 0 0 0 12px;
@@ -1094,11 +1094,11 @@ p.note {
   display: block;
 }
 /* line 796, ../../app/stylesheets/main.scss */
-#nav-secondary li.active li a:hover, #nav-secondary li.active li a:active {
+#nav-secondary li.current li a:hover, #nav-secondary li.current li a:active {
   color: #c00;
 }
 /* line 801, ../../app/stylesheets/main.scss */
-#nav-secondary li.active li.active a:link, #nav-secondary li.active li.active a:visited, #nav-secondary li.active li.active a:hover, #nav-secondary li.active li.active a:active {
+#nav-secondary li.current li.active a:link, #nav-secondary li.current li.active a:visited, #nav-secondary li.current li.active a:hover, #nav-secondary li.current li.active a:active {
   font-weight: bold;
 }
 /* line 803, ../../app/stylesheets/main.scss */

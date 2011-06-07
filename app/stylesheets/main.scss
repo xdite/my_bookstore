@@ -766,7 +766,7 @@ p.note {
       color: #c00;
       background: #ffeeee url("images/sprites.gif") no-repeat 10px -695px; } }
   li {
-    &.active a {
+    &.current a {
       &:link, &:visited, &:hover, &:active {
         color: #c00; } }
     border-top: 1px solid #fff;
@@ -774,7 +774,7 @@ p.note {
   ul {
     margin: 0 0 1em 23px;
     padding: 0; }
-  li.active li {
+  li.current li {
     a {
       line-height: 1.5;
       background: white url("images/sprites.gif") no-repeat 0 -798px;

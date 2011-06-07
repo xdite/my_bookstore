@@ -1,17 +1,7 @@
+<%= render_list :id => "nav-secondary" do |li| 
+    li << link_to("第一次學習 Rails 就上手", "/")
+    li << link_to("SEO for Rails", "#")
+    li << link_to("Essential Rails Design Patterns For Beginners", "#")
+    li << link_to("Rails Performance Tuning","#" )
 
-<ul id="nav-secondary">
-<li class="first"><a href="#">Latinus Wordus</a></li>
-<li><a href="#">Catsnamus Mitenus</a></li>
-<li class="active"><a href="#">Beautus Weatherus</a>
-
-	<ul>
-	<li class="first"><a href="#">Letsgo Surfingus</a></li>
-	<li><a href="#">Nothingo on tivio</a></li>
-	<li class="active"><a href="#">Wanta a coffeo</a></li>
-	<li class="last"><a href="#">Nothingo on tivio</a></li>
-	</ul>
-</li>
-<li><a href="#">Bottomus Navigationus</a></li>
-<li><a href="#">Gee my neckus issore</a></li>
-<li class="last"><a href="#">Last buttus notleastus</a></li>
-</ul>
+end %>
