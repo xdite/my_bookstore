@@ -11,6 +11,9 @@ License: Released Under the "GNU Creative Commons License",
 http://creativecommons.org/licenses/GPL/2.0/
 */
 
+@import "fancy-buttons";
+
+button { @include fancy-button(#46802B); }
 /* THE BIG GUYS */
 
 * {

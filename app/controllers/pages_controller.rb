@@ -11,11 +11,11 @@ class PagesController < ApplicationController
   
   def author
     add_breadcrumb "Home", root_path
-    add_breadcrumb "About", "/pages/author"
+    add_breadcrumb "Author", "/pages/author"
   end
   
   def contact
     add_breadcrumb "Home", root_path
-    add_breadcrumb "About", "/pages/content"
+    add_breadcrumb "Contact", "/pages/content"
   end
 end

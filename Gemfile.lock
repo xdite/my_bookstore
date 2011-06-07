@@ -44,6 +44,8 @@ GEM
       sass (~> 3.1)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    fancy-buttons (1.1.1)
+      compass (>= 0.11)
     fssm (0.2.7)
     i18n (0.5.0)
     mail (2.2.19)
@@ -85,6 +87,7 @@ PLATFORMS
 DEPENDENCIES
   breadcrumbs_on_rails
   compass (>= 0.11.1)
+  fancy-buttons
   handicraft_helper!
   rails (= 3.0.7)
   sqlite3
