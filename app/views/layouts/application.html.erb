@@ -20,7 +20,7 @@
 	</div>
 	
 	<div id="content-wrap">
-	
+	    
 		<div id="utility">
             <%= render :partial => "common/utility" %>
 		</div>
@@ -28,8 +28,9 @@
 		<div id="content">
 		
 			<div id="breadcrumb">
-			<a href="homepage.cfm">Home</a> / <a href="devtodo">Section Name</a> / <strong>Page Name</strong>
+		        <%=raw render_breadcrumbs %>
 			</div>
+			
 			
             <%= yield %>
 			<div id="footer">

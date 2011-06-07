@@ -35,6 +35,7 @@ GEM
       activesupport (= 3.0.7)
     activesupport (3.0.7)
     arel (2.0.10)
+    breadcrumbs_on_rails (1.0.1)
     builder (2.1.2)
     chunky_png (1.1.2)
     compass (0.11.1)
@@ -82,6 +83,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  breadcrumbs_on_rails
   compass (>= 0.11.1)
   handicraft_helper!
   rails (= 3.0.7)
