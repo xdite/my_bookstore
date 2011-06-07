@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Rails 101</title>
-<%= stylesheet_link_tag :all %>
+<%= stylesheet_link_tag "main" %>
 <%= javascript_include_tag "common.js" %>
 <%= csrf_meta_tag %>
 </head>
@@ -22,74 +22,13 @@
 			<input type="submit" value="Go" class="f-submit" />
 			</form>
 		</div>
-		<ul id="nav">
-		<li class="first"><a href="#">Home</a></li>
-		<li class="active"><a href="#">Products</a>
-			<ul>
-			<li class="first"><a href="#">Maecenas</a></li>
-			<li class="active"><a href="#">Phasellus</a></li>
-			<li><a href="#">Mauris sollicitudin</a></li>
-			<li><a href="#">Mauris sollicitudin</a></li>
-			<li><a href="#">Mauris sollicitudin</a></li>
-			<li><a href="#">Mauris sollicitudin</a></li>
-			<li class="last"><a href="#">Mauris at enim</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Client list</a>
-			<ul>
-			<li class="first"><a href="#">Maecenas</a></li>
-			<li><a href="#">Phasellus</a></li>
-			<li><a href="#">Mauris sollicitudin</a></li>
-			<li class="last"><a href="#">Mauris at enim</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Case Studies &amp; References</a>
-			<ul>
-			<li class="first"><a href="#">Maecenas</a></li>
-			<li><a href="#">Phasellus</a></li>
-			<li><a href="#">Mauris sollicitudin</a></li>
-			<li><a href="#">Phasellus</a></li>
-			<li><a href="#">Mauris sollicitudin</a></li>
-			<li><a href="#">Phasellus</a></li>
-			<li><a href="#">Mauris sollicitudin</a></li>
-			<li><a href="#">Phasellus</a></li>
-			<li><a href="#">Mauris sollicitudin</a></li>
-			<li><a href="#">Phasellus</a></li>
-			<li><a href="#">Mauris sollicitudin</a></li>
-			<li class="last"><a href="#">Mauris at enim</a></li>
-			</ul>
-		</li>
-		<li class="last"><a href="#">Locations</a>
-			<ul>
-			<li class="first"><a href="#">Maecenas</a></li>
-			<li><a href="#">Phasellus</a></li>
-			<li><a href="#">Mauris sollicitudin</a></li>
-			<li class="last"><a href="#">Mauris at enim</a></li>
-			</ul>
-		</li>
-		</ul>
+        <%= render :partial => "common/nav" %>
 	</div>
 	
 	<div id="content-wrap">
 	
 		<div id="utility">
-
-			<ul id="nav-secondary">
-			<li class="first"><a href="#">Latinus Wordus</a></li>
-			<li><a href="#">Catsnamus Mitenus</a></li>
-			<li class="active"><a href="#">Beautus Weatherus</a>
-			
-				<ul>
-				<li class="first"><a href="#">Letsgo Surfingus</a></li>
-				<li><a href="#">Nothingo on tivio</a></li>
-				<li class="active"><a href="#">Wanta a coffeo</a></li>
-				<li class="last"><a href="#">Nothingo on tivio</a></li>
-				</ul>
-			</li>
-			<li><a href="#">Bottomus Navigationus</a></li>
-			<li><a href="#">Gee my neckus issore</a></li>
-			<li class="last"><a href="#">Last buttus notleastus</a></li>
-			</ul>
+            <%= render :partial => "common/utility" %>
 		</div>
 		
 		<div id="content">
@@ -107,22 +46,7 @@
 		</div>
 		
 		<div id="sidebar">
-
-			<div class="featurebox">
-			<h3>Mollio v1.0 released</h3>
-			<p><strong>FarCry is more than an enterprise-class application.</strong> FarCry is an "out of the box" open source solution, a fully extensible application framework, and a commercially supported services model. </p>
-			</div>
-			
-			<div class="featurebox">
-			<h3>New Features</h3>
-			<p>FarCry is more than an enterprise-class application. FarCry is an "out of the box" open source</p>
-			<ul>
-			<li><strong>Super fast</strong></li>
-			<li><strong>Standards compliant</strong></li>
-			<li><strong>Works out of the box</strong></li>
-			</ul>
-			</div>
-				
+            <%= render :partial => "common/sidebar_for_general"%>
 		</div>
 		
 		<div id="poweredby"><a href="http://farcry.daemon.com.au/"><img src="wsimages/mollio.gif" alt="FarCry - Mollio" /></a></div>
