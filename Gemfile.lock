@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/handlino/handicraft_helper.git
+  revision: bb140a85a0bc41696ae6d6a838b40057af9fa635
+  specs:
+    handicraft_helper (1.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -77,5 +83,6 @@ PLATFORMS
 
 DEPENDENCIES
   compass (>= 0.11.1)
+  handicraft_helper!
   rails (= 3.0.7)
   sqlite3

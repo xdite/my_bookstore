@@ -391,7 +391,7 @@ hr {
           width: 14em;
           color: #fff;
           background: #c00; } } }
-    &.active {
+    &.current {
       background: #c00;
       border-bottom: 3px solid #c00;
       ul {
@@ -468,7 +468,9 @@ hr {
 
 #content-wrap {
   position: relative;
-  width: 100%; }
+  width: 100%; 
+  min-height: 700px;
+}
 
 #utility {
   position: absolute;
