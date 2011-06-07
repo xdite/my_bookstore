@@ -1262,3 +1262,8 @@ p.note {
 #footer a:link {
   color: #999;
 }
+
+/* line 853, ../../app/stylesheets/main.scss */
+.social {
+  float: right;
+}
