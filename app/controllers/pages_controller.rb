@@ -1,7 +1,10 @@
 class PagesController < ApplicationController
+  
   def welcome
     add_breadcrumb "Home", root_path
     add_breadcrumb "Rails 101", root_path
+    
+    render :template => "/books/1-rails-101"
   end
   
   def about

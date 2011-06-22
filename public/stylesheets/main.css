@@ -1267,3 +1267,8 @@ p.note {
 .social {
   float: right;
 }
+
+.cover img{
+
+      border:1px solid black;
+}
