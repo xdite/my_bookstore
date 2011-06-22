@@ -50,6 +50,7 @@ NewbieBook::Application.routes.draw do
   # just remember to delete public/index.html.
   # root :to => "welcome#index"
 
+  match "/books/:id/about", :to => "books#about"
   resources :books
   
   match "/pages/:action", :to => "pages##{:action}"
