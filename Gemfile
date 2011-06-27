@@ -6,8 +6,10 @@ gem 'fancy-buttons'
 gem "handicraft_helper", :git => "git://github.com/handlino/handicraft_helper.git", :require => "handicraft/helper"
 
 gem "breadcrumbs_on_rails"
-gem 'activeadmin'
 
+gem 'devise' # Devise must be required before RailsAdmin
+#gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
+gem 'rails_admin', :path => "~/Dropbox/projects/rails_admin"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
