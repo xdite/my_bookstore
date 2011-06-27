@@ -6,6 +6,7 @@ gem 'fancy-buttons'
 gem "handicraft_helper", :git => "git://github.com/handlino/handicraft_helper.git", :require => "handicraft/helper"
 
 gem "breadcrumbs_on_rails"
+gem 'activeadmin'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
