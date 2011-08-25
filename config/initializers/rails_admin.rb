@@ -7,10 +7,7 @@ end
 RailsAdmin.config do |config|
   config.model Book do
     label "List of books"
-    list do
-      sort_by :id
-    end
-    
+
     edit do
       field :title, :string do 
         label "書名"
