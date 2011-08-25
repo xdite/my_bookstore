@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.7'
+gem 'rails', '3.0.10'
 gem "compass", ">= 0.11.1"
 gem 'fancy-buttons'
 gem "handicraft_helper", :git => "git://github.com/handlino/handicraft_helper.git", :require => "handicraft/helper"
@@ -8,7 +8,7 @@ gem "handicraft_helper", :git => "git://github.com/handlino/handicraft_helper.gi
 gem "breadcrumbs_on_rails"
 
 gem 'devise', "1.4.2"# Devise must be required before RailsAdmin
-gem 'rails_admin', :require => "rails_admin"
+gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git', :branch => 'rails-3.0'
 #gem 'rails_admin', :path => "~/Dropbox/projects/rails_admin"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
