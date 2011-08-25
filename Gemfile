@@ -4,7 +4,7 @@ gem 'rails', '3.0.10'
 gem "compass", ">= 0.11.1"
 gem 'fancy-buttons'
 gem "handicraft_helper", :git => "git://github.com/handlino/handicraft_helper.git", :require => "handicraft/helper"
-
+gem "fastercsv"
 gem "breadcrumbs_on_rails"
 
 gem 'devise', "1.4.2"# Devise must be required before RailsAdmin
