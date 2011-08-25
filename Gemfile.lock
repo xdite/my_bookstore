@@ -4,15 +4,6 @@ GIT
   specs:
     handicraft_helper (1.0)
 
-PATH
-  remote: ~/Dropbox/projects/rails_admin
-  specs:
-    rails_admin (0.0.1)
-      builder (~> 2.1.0)
-      fastercsv
-      haml (>= 3.0.0, < 3.2.0)
-      rails (~> 3.0.7)
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -60,9 +51,7 @@ GEM
       abstract (>= 1.0.0)
     fancy-buttons (1.1.1)
       compass (>= 0.11)
-    fastercsv (1.5.4)
     fssm (0.2.7)
-    haml (3.1.2)
     i18n (0.5.0)
     mail (2.2.19)
       activesupport (>= 2.3.6)
@@ -85,6 +74,7 @@ GEM
       activesupport (= 3.0.7)
       bundler (~> 1.0)
       railties (= 3.0.7)
+    rails_admin (0.0.0)
     railties (3.0.7)
       actionpack (= 3.0.7)
       activesupport (= 3.0.7)
@@ -110,5 +100,5 @@ DEPENDENCIES
   fancy-buttons
   handicraft_helper!
   rails (= 3.0.7)
-  rails_admin!
+  rails_admin
   sqlite3
