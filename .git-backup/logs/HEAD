@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 9de6b1837161d815c1959b3b6067530c2b902c2a xdite <xuite.joke@gmail.com> 1316760589 +0800	commit (initial): init project
+9de6b1837161d815c1959b3b6067530c2b902c2a 9acbed451dc1cfd64b64b2803b256d67e70f8d46 xdite <xuite.joke@gmail.com> 1316880698 +0800	commit: preface
+9acbed451dc1cfd64b64b2803b256d67e70f8d46 ddd4df9570357c92e6edb90a52ea1b1345ad7479 xdite <xuite.joke@gmail.com> 1316888989 +0800	commit: change book cover
+ddd4df9570357c92e6edb90a52ea1b1345ad7479 62d335f1df2e972b05094abea5874a4fc56290c2 xdite <xuite.joke@gmail.com> 1316892916 +0800	commit: adjust header
+62d335f1df2e972b05094abea5874a4fc56290c2 68118aecd4f02a24b6e455bcaed068d810874183 xdite <xuite.joke@gmail.com> 1316893183 +0800	commit: billing page
+68118aecd4f02a24b6e455bcaed068d810874183 3f3dc77c9292e23a2e7165496230a97abf011592 xdite <xuite.joke@gmail.com> 1316893422 +0800	commit: move money back to parital
+3f3dc77c9292e23a2e7165496230a97abf011592 4b253bb84e2cddd2105c61528f2dc41ed171fe83 xdite <xuite.joke@gmail.com> 1316894449 +0800	commit: book-1 與 index 共用一個網頁
+4b253bb84e2cddd2105c61528f2dc41ed171fe83 351ff5bb489c7d729e51aabea38958e660c9b0a4 xdite <xuite.joke@gmail.com> 1316897003 +0800	commit: add todo page
+351ff5bb489c7d729e51aabea38958e660c9b0a4 f2d5975a015b4e83867b7c2bfc12009d1b684faa xdite <xuite.joke@gmail.com> 1316899115 +0800	commit: helper
