@@ -21,10 +21,18 @@ title: Rails 101 - 火速學會 Ruby on Rails
     
 <!-- PRICE -->
 <div class="price group">
+  <!--
   <a href="http://transactions.digitaldeliveryapp.com/products/246/add_to_cart" onclick="addProductToCart(246); return false;" rel="nofollow" target="dda_cart" class="button pdf">
     電子版本<span>$9.99 USD</span>
   </a>
-  內含 PDF / Epub 雙版本。習題程式碼。
+
+  !-->
+
+    <a href="http://leanpub.com/rails-101" rel="nofollow" target="dda_cart" class="button pdf">
+    電子版本<span>$9.99 USD</span>
+  </a>
+
+   （舊版本停止販售，請購買新版本，支援 Ruby 2.0.0 + Rails 4.0 ）
 </div>
     
     <%= partial "money_back"%>
@@ -56,38 +64,3 @@ title: Rails 101 - 火速學會 Ruby on Rails
     
     </div>
     
-    <!-- SAMPLES -->
-    <div class="samples group">
-        
-        <div class="carousel">
-          <%= link_to("previous", "#", :class => "buttons prev")%>
-            <div class="viewport">
-        <ul class="overview">
-
-            <li>
-              <a href="/images/01_bugfree.png" rel="fancybox"><img src="/images/01_bugfree_thumb.png" alt="" /></a> 
-              <a href="/images/01_bugfree_next.png" class="zoom" rel="fancybox">Zoom</a>
-            </li>
-
-            <li>
-            <a href="/images/01_crud.png" rel="fancybox"><img src="/images/01_crud_thumb.png" alt="" /></a> 
-            <a href="/images/01_crud_next.png" class="zoom" rel="fancybox">Zoom</a>
-          </li>
-
-            <li>
-            <a href="/images/01_rake.png" rel="fancybox"><img src="/images/01_rake_thumb.png" alt="" /></a> 
-            <a href="/images/01_rake_next.png" class="zoom" rel="fancybox">Zoom</a>
-          </li>
-
-            <li>
-              <a href="/images/01_deploy_vps.png" rel="fancybox"><img src="/images/01_deploy_vps_thumb.png" alt="" /></a> 
-              <a href="/images/01_deploy_vps_next.png" class="zoom" rel="fancybox">Zoom</a>
-            </li>
-        </ul>
-            </div>
-            
-            <%= link_to("next", "#", :class => "buttons next")%>
-            
-        </div>
-                            
-    </div><!-- /samples -->
